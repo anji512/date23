@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hover effects</title>
+    <style type="text/css"media="all ">
+        #pic{
+            width: 300px;
+            height: 360px;
+            border: 1px solid black;
+            background: url("https://tse1.mm.bing.net/th?id=OIF.wr7Vw8VNEpj1imXUtMiNQg&pid=Api&P=0&h=180");
+            background-repeat:no-repeat;
+            transition: all 3s;
+            opacity: 70%;
+            filter: blur(1px);
+            border-radius: 20px;
+        }
+
+        #Pic:hover{
+            width: 100%;
+            opacity: 100%;
+            filter: blur(0px);
+            border: 3px solid rgb(13, 170, 102);
+        }
+        #write{
+            color: rgb(16, 51, 155);
+            text-shadow: 0px 0px 5px rgb(143, 24, 169);
+            letter-spacing:2px;
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color:blue;text-decoration:underline double">anji.css</h1>
+    <h1 style="text-align: center;color:red;font-size: 30px">HOVER EFFECT</h1>
+    <marquee width="100%"height="80px"backgroundcolor="yellow" scrollamount="10">
+        <h1 id="write">HAPPY CHAVITHI FRND'S</h1>
+    </marquee>
+    <DIV id="pic"></DIV>
+    
+</body>
+</html>
